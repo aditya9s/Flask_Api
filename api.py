@@ -4,7 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-origins = ['http://localhost:5173', 'http://localhost:3001', 'http://localhost:3003']
+origins = ['http://localhost:5173', 'http://localhost:3001', 'https://grow-me-organics.netlify.app/']
 CORS(app, origins=origins)
 
 # Sample data
